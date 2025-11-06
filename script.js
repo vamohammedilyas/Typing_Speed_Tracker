@@ -74,7 +74,7 @@ textInput.addEventListener("input", () => {
   wpmDisplay.textContent = isNaN(wpm) || !isFinite(wpm) ? 0 : wpm;
   accuracyDisplay.textContent = isNaN(accuracy) ? 0 : accuracy;
 });
-
+// button
 restartBtn.addEventListener("click", () => {
   clearInterval(timer);
   timeLeft = 60;
