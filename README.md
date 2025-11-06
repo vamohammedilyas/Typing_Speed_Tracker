@@ -62,4 +62,4 @@ Every input character is compared against the target text:
 ### 3️⃣ WPM Formula
 (Each 5 characters are considered one word.)
 
-### 4️⃣ Accuracy Formula
+
