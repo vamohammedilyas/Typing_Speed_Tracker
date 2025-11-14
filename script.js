@@ -59,8 +59,8 @@ textInput.addEventListener("input", () => {
     if (char == null) {
       span.classList.remove("correct", "incorrect");
     } else if (char === span.textContent) {
-      span.classList.add("correct");
-      span.classList.remove("incorrect");
+      span.classList.add("Correct");
+      span.classList.remove("Incorrect");
       correctChars++;
     } else {
       span.classList.add("incorrect");
